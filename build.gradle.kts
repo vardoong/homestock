@@ -22,6 +22,15 @@ dependencies {
     runtimeOnly("com.mysql:mysql-connector-j")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    // tomcat-embed-jasper
+    implementation("org.apache.tomcat.embed:tomcat-embed-jasper")
+
+    // jstl
+    implementation("javax.servlet:jstl:1.2")
+
+
+
 }
 
 tasks.withType<Test> {
