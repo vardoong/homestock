@@ -1,9 +1,7 @@
 <%--
-  Created by IntelliJ IDEA.
-  User: hyper
+  User: ian
   Date: 2023-09-11
-  Time: 오후 9:30
-  To change this template use File | Settings | File Templates.
+  Description:
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
