@@ -28,6 +28,9 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
     compileOnly("org.projectlombok:lombok")
 
+    // spring security
+    implementation("org.springframework.boot:spring-boot-starter-security")
+
     // tomcat-embed-jasper
     implementation("org.apache.tomcat.embed:tomcat-embed-jasper")
 
