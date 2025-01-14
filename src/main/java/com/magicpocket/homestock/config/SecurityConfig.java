@@ -44,6 +44,8 @@ public class SecurityConfig {
                                 , mvc.pattern("/signup")
                                 , mvc.pattern("/auth/signup")
                                 , mvc.pattern("/login-process")
+
+                                , mvc.pattern("/boots")
                         ).permitAll()
 
                         .requestMatchers(

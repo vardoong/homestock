@@ -37,4 +37,9 @@ public class IndexController {
         return "dashboard";
     }
 
+
+    @GetMapping(value = "/boots")
+    public String boots(){
+        return "boots";
+    }
 }
